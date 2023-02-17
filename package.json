@@ -1,0 +1,28 @@
+{
+  "name": "mandailing-language",
+  "version": "1.1.0",
+  "description": "Mandailing programming language",
+  "main": "mandailing-interpreter.js",
+  "bin": {
+    "mandailing": "./mandailing-interpreter.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fauzanlbs/mandailing-language.git"
+  },
+  "author": "Fauzan Lubis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fauzanlbs/mandailing-language/issues"
+  },
+  "homepage": "https://github.com/fauzanlbs/mandailing-language#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
